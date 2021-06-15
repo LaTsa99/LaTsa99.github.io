@@ -18,8 +18,8 @@ email: laszlo.szapula@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is a blog of an IT security researcher wannabe guy, mostly
   talking about linux kernel exploitation and arm64, but who knows...
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://latsa99.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: LaTsa99
 github_username:  LaTsa99
 
