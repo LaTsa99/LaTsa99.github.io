@@ -123,11 +123,12 @@ GEM
       commonmarker (~> 0.17.6)
       jekyll-commonmark (~> 1.2)
       rouge (>= 2.0, < 4.0)
-    jekyll-dash (1.3.4)
+    jekyll-dash (1.0.0)
       jekyll (~> 3.5)
       jekyll-feed (~> 0.9)
       jekyll-paginate
       jekyll-seo-tag (~> 2.1)
+      liquid-md5 (~> 0.0.3)
     jekyll-default-layout (0.1.4)
       jekyll (~> 3.0)
     jekyll-feed (0.15.1)
@@ -214,6 +215,8 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
+    liquid-md5 (0.0.3)
+      liquid (>= 2.5, < 5.0)
     listen (3.5.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -276,7 +279,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-dash
+  jekyll-dash (~> 1.0.0.0)
   jekyll-feed (~> 0.6)
   tzinfo (~> 1.2)
   tzinfo-data
