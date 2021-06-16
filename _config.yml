@@ -20,8 +20,24 @@ description: >- # this means to ignore newlines until "baseurl:"
   talking about linux kernel exploitation and arm64, but who knows...
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://latsa99.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: LaTsa99
-github_username:  LaTsa99
+#twitter_username: LaTsa99
+#github_username:  LaTsa99
+
+paginate: 5
+#paginate_path: "/:num/"
+
+dash:
+  date_format: "%b %-d, %Y"
+
+  social_links:
+    - url: https://twitter.com/LaTsa99
+      icon: twitter-square
+      color: cian
+    - url: https://github.com/LaTsa99
+      icon: github-square
+      color: purple
+
+  show_author: true
 
 # Build settings
 markdown: kramdown
